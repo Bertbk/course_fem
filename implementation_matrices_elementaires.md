@@ -289,7 +289,7 @@ En valeur absolue, cela correspond à 2 fois l'aire du triangle $\tri{p}$. Le d�
 
 
 {{% alert note %}} 
-Développée par [Mina Pêcheux](http://minapecheux.com), cette [application web]({{<relref "ref2tri/index.html">}}) vous pemret de modifier le triangle $\tri{p}$ et obtenir directement l'expression de la Jacobienne.
+Développée par [Mina Pêcheux](http://minapecheux.com), cette [application web]({{<relref "ref2tri/index.html">}}) vous permet de modifier le triangle $\tri{p}$ et d'obtenir directement l'expression de la Jacobienne.
 
 [<button type="button" class="btn btn-outline-primary">Accès à l'application</button>]({{<relref "ref2tri/index.html">}})
 
@@ -524,9 +524,9 @@ Nous présentons ici deux règles de quadrature pour l'intégration sur $\Kh$ d'
 |    4/6 | 1/6 | 1/6 |   |
 |    1/6 | 4/6 | 1/6 |   |
 
-###  Sur une arrête
+###  Sur une arête
 
-Voici quelques formules de quadrature sur un segment $[\sumitK{p}{1}, \sumitK{p}{2}]$ avec le degré de précision, *i.e* la formule est exacte si $g$ est un polynôme de degré égal ou inférieur. Nous notons $\abs{\sigma} = \norm{\sumitK{p}{1} - \sumitK{p}{2}}$ la taille du segment et $\sumitK{p}{12} = \frac{\sumitK{p}{1} + \sumitK{p}{2}}{2}$ le milieu du segment:
+Voici quelques formules de quadrature sur un segment $[\sumitK{p}{1}, \sumitK{p}{2}]$ avec le degré de précision, *i.e* la formule est exacte si $g$ est un polynôme de degré égal ou inférieur. Nous notons $\abs{\sigma} = \norm{\sumitK{p}{1} - \sumitK{p}{2}}$ la taille du segment et $\sumitK{p}{12} = \frac{\sumitK{p}{1} + \sumitK{p}{2}}{2}$ le milieu du segment :
 
 | Nom | Degré de <br>précision | $\dsp \int\_{\sumitK{p}{1}}^{\sumitK{p}{2}}g(x)\diff x\simeq \ldots$    |
 | -------- |-------- |  ---------------- |
