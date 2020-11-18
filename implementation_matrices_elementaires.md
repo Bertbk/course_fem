@@ -126,9 +126,9 @@ $$
 K\_{I,J}=  \int\_{\Omega}\nabla\mphi{J}(\xx)\overline{\nabla\mphi{I}(\xx)}\diff\xx.
 $$
 
-{{% alert note%}}
+{{% callout note%}}
 La matrice $M$ représente l'opérateur identité dans la base des éléments finis (ce n'est pas la matrice diagonale remplie de 1...). En effet, si "l'EDP" était juste $u = f$, alors on aurait $a(u,v) = \int\_{\Omega}u\overline{v}$ et sa matrice $\Pun$ serait la matrice de masse.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Matrice de masse élémentaire
 
@@ -141,9 +141,9 @@ M^p\_{i,j} = \int\_{\tri{p}} \mphiK{p}{j}(\xx)\ \overline{\mphiK{p}{i}(\xx)}\dif
 \end{equation}
 Chaque contribution élémentaire $M^p\_{i,j}$ est ensuite ajoutée à $M\_{I,J}$, avec $I=\loctoglob(p,i)$ et $J=\loctoglob(p,j)$. 
 
-{{% alert note %}}
+{{% callout note %}}
 Les coefficients $M^p\_{i,j}$, pour $i,j=1,2,3$ peuvent être regroupés pour former la **matrice de masse élémentaire** $\Mep$ de taille $3\times 3$ et du triangle $\tri{p}$.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Triangle de référence
 
@@ -265,9 +265,9 @@ $$
 $$
 ce qui implique que le déterminant est non nul puisque le triangle n'est pas dégénéré : la transformation $\TK{p}$ est bien inversible.
 
-{{% alert note %}}
+{{% callout note %}}
 Quand $\psih\_i = \varphih\_i$, nous parlons d'éléments finis **isoparamétriques**. Il convient de retenir que ce choix n'est pas obligatoire et les fonctions $\psih\_i$ et $\varphih\_i$ sont *indépendantes*. En particulier, pour obtenir des éléments courbes, les fonctions $\psih\_i$ pourraient être quadratiques par exemple.
-{{% /alert %}}
+{{% /callout %}}
 
 {{< figure class="app-jacobi" title="<i class='fas fa-play-circle'></i> **Time To Play!**<br>**Déplacez les sommets du triangle** pour modifier la valeur du **Jacobien**. Quand il est négatif cela signifie que le triangle est **\"retourné\"** par rapport au triangle de référence." numbered="true" >}}
 
@@ -494,9 +494,9 @@ Voici quelques formules de quadrature sur un segment $[\sumitK{p}{1}, \sumitK{p}
 |    1/3 Simpson | 2 | $\dsp\frac{\abs{\sigma}}{6}\left(g(\sumitK{p}{1}) + 4g(\sumitK{p}{12}) + g(\sumitK{p}{2})\right)$ |
 
 
-{{% alert note %}}
+{{% callout note %}}
 Les formules de quadrature ont évidemment un impact sur la qualité de l'approximation, toutefois, elles jouent un rôle relativement mineur par rapport aux autres approximations (et l'on peut choisir plus de points d'intégration !).
-{{% /alert %}}
+{{% /callout %}}
 
 
 {{< js src="https://d3js.org/d3.v5.min.js" >}}

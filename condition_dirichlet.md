@@ -211,9 +211,9 @@ $$
 $$
 {{< /thm/thm >}}
 
-{{% alert note %}}
+{{% callout note %}}
 L'inégalité de Poincaré est aussi valable si la condition de Dirichlet n'est posée que sur une partie du bord $\partial\Omega$, comme montré ci-après.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Condition de Dirichlet partielle : combinaison de Neumann et  Dirichlet
 
@@ -335,11 +335,11 @@ $$
 
 Informatiquement, nous devons donc rendre les lignes et colonnes associées aux degrés de liberté de Dirichlet, nulles, sauf sur la diagonale avec la valeur 1. Cette opération est souvent effectuée après l'assemblage de la matrice.
 
-{{% alert note %}}
+{{% callout note %}}
 La valeur de 1 sur la diagonale est finalement arbitraire : nous pouvons choisir n'importe quelle valeur. Pour des raisons de précision numérique, il peut être plus pertinent de choisir comme valeur la moyenne de la somme de la diagonale de $A\_{I,I}$ (sa trace). Cette technique peu coûteuse permet d'éviter de polluer le conditionnement de la matrice par des valeurs potentiellement trop grande ou trop petite par rapport à la "moyenne".
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert note %}}
+{{% callout note %}}
 Dans le cas de condition de Dirichlet homogène, ce système ce simplifie :
 $$
   AU = b \iff 
@@ -363,7 +363,7 @@ $$
   \right),
 $$
 ou encore, plus simplement : $A\_{I,I} u\_I = b\_I$.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Condition de Dirichlet non homogène
 
@@ -397,9 +397,9 @@ $$
 \right.
 $$
 
-{{% alert note %}}
+{{% callout note %}}
 Le relèvement n'est pas unique, puisque si $u\_0\in\Hoz$ alors $u\_g + u\_0$ est aussi un relèvement acceptable.
-{{% /alert %}}
+{{% /callout %}}
 
 ### Construction d'un relèvement en P1
 

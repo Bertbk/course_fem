@@ -89,9 +89,9 @@ Comme $v$ est arbitraire, l'égalité ci-dessous vaut pour tout $v$ :
 Dans le cas où $u\in\Cscr^2(\overline{\Omega})$, il est clair que $u$ est solution de \eqref{eq:pbmodel} implique que $u$ est solution de \eqref{eq:FVpbmodel}. La grande question étant : la réciproque est-elle vraie ? La réponse, sans surprise, est oui. Nous devons cependant introduire un nouvel espace de fonctions.
 
 
-{{% alert note %}}
+{{% callout note %}}
 Un des grands intérêts de l'expression \eqref{eq:FVpbmodel} est que **seules les dérivées premières** de $u$ apparaissent, pas les secondes ! Autrement dit, si on souhaite résoudre \eqref{eq:FVpbmodel}, chercher $u$ dans $\Cscr^1(\overline{\Omega})$ suffirait. C'est pour cela qu'elle nous intéresse...
-{{% /alert %}}
+{{% /callout %}}
 
 ## Fonctions infiniment dérivables et à support compact
 

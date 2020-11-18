@@ -182,9 +182,9 @@ Soit $(\Tscr\_h)\_{h>0}$ une suite de maillages de $\Omega$. On dit qu'il s'agit
   $$
 {{< /thm/thm >}}
 
-{{% alert note %}}
+{{% callout note %}}
 La dernière condition signifie qu'il existe un angle $\theta\_0$ qui minimise tous les angles de tous les triangles du maillage.
-{{% /alert %}}
+{{% /callout %}}
 
 
 ## Un premier élément : le lemme de Céa
@@ -223,9 +223,9 @@ $$
 $$
 L'erreur commise par la méthode des éléments finis est donc majorée par **l'erreur d'interpolation de la solution sur $\Pun$**.
 
-{{% alert warning %}}
+{{% callout warning %}}
 Il n'y a aucune raison pour que $\uh = \Pi\_h u$ ! Rappelons-nous que $\uh$ est "proche" de $u$ au sens de la norme de l'énergie (intégrale) et non "point à point".
-{{% /alert %}}
+{{% /callout %}}
 
 <!-- On s'intéresse maintenant à $\normH{u-\Pi\_h(u)}^2$ qui a le bon goût de pouvoir se décomposer triangle par triangle :
 $$
@@ -313,6 +313,6 @@ où $C>0$ est indépendante de $h$ et de $u$.
 - Plus k augmente, plus l'interpolation de $u$ est précise et, par suite, plus l'approximation $\uh$ l'est de $u$
 - La constante $C$ dépend aussi du problème physique car elle dépend de $\frac{M}{\alpha}$ (où $\alpha$ est la constante de coercivité de $a(\cdot,\cdot)$ et $M$ de continuité de $\ell(\cdot)$)
 
-{{% alert warning %}}
+{{% callout warning %}}
 Ces estimations ne valent que pour un domaine $\Omega$ polygonal ! Autrement, l'approximation géométrique rendra les éléments finis $\Pk$ pour $k>1$ sous-optimaux.
-{{% /alert %}}
+{{% /callout %}}

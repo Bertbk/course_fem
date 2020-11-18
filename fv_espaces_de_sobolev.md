@@ -143,9 +143,9 @@ $$
 et nous concluons grâce au {{< thm/ref "corollary-f-zero" >}}Corollaire précédent{{< /thm/ref >}}.
 {{< /thm/proof >}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 Dans la suite, puisque nous ne travaillerons qu'avec des dérivées partielles faibles, nous **omettrons le tilde**.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Espace de Sobolev H<sup>1</sup>(Ω)
 
@@ -168,10 +168,10 @@ $$
 \right)^{\frac{1}{2}}.
 $$
 
-{{% alert note %}}
+{{% callout note %}}
 Nous pouvons montrer que c'est effectivement un produit scalaire avec les arguments similaires à ceux utilisés pour montrer que la "même" application est un produit scalaire sur $\Cscr^1(\Omega)$.
-{{% /alert %}}
-{{% alert tips %}}
+{{% /callout %}}
+{{% callout tips %}}
 Pour $u$ de $\Ho$, nous avons clairement
 $$
   \normH{u}^2 = \normL{u}^2 + \sum\_{i=1}^d\normL{\di u}^2,
@@ -180,7 +180,7 @@ et donc les inégalités suivantes :
 
 1. $\normH{u}^2 \geq \normL{u}^2$
 2. $\normH{u}^2 \geq \sum_{i=1}^d\normL{\partial_i u}^2 \geq \normL{\partial_i u}^2, \qquad \forall i=1,2,\ldots, d$
-{{% /alert %}}
+{{% /callout %}}
 
 Nous montrons maintenant que $\Ho$ muni de cette norme est complet.
 
@@ -266,14 +266,14 @@ $$
 
 La forme $a(\cdot,\cdot)$ est bien sesquilinéaire et c'est même le produit scalaire sur $\Ho$. Sa coercivité a déjà été montrée, et $\ell$ est continue. La différence avec ce qui précède est que nous travaillons maintenant dans l'espace $H^1(\Omega)$  qui est un espace de Hilbert. Le Théorème de Lax-Milgram peut s'appliquer pour obtenir que **\eqref{eq:FVHpbmodel} admet une unique solution $u$ dans $H^1(\Omega)$**.
 
-{{% alert note %}}
+{{% callout note %}}
 La solution faible est-elle solution forte du problème initial ? Oui si $u$ est plus régulière. En particulier si $u\in H^2(\Omega)$, où
 $$
 H^2(\Omega) = \enstq{v \in \Ho}{\forall i,j, \quad \di\dj v\in \Lo}.
 $$
 Dans ce cas, l'égalité $-\Delta u + u = f$ est à comprendre *presque partout*.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert note %}}
+{{% callout note %}}
 En réalité, nous pouvons nous passer de la régularité $H^2(\Omega)$ de $u$, mais la démonstration devient plus compliquée...
-{{% /alert %}}
+{{% /callout %}}

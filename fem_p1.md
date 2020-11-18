@@ -147,9 +147,9 @@ $$
 \hme{V} = \enstq{v\in\Cscr^0(\overline{\Omega})}{v|\_{T}\in\Pun(T) \text{ pour tout } T\in\hme{\Tscr}}.
 $$
 {{< /thm/thm >}}
-{{% alert warning %}}
+{{% callout warning %}}
 Une fonction de $\hme{V}$ **n'est pas affine** mais affine **par morceaux**. Il faut bien noter que les paramètres $a,b,c$ du polynôme $p\_T$ dépendent du triangle $T$ considéré !
-{{% /alert %}}
+{{% /callout %}}
 
 
 {{< thm/thm lemma >}}

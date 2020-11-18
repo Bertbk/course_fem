@@ -40,6 +40,6 @@ L'implémentation de la méthode des éléments finis peut se décomposer en 6 g
 
 En TP, nous réaliserons des géométries complexes avec [GMSH](https://gmsh.info) et implémenterons l'assemblage des matrices du problème modèle (en Python). L'utilisation de [FreeFem++](https://freefem.org) nous permettra d'assembler et de résoudre des problèmes plus compliqués. La visualisation sera effectuée avec [GMSH](https://gmsh.info).
 
-{{% alert note %}}
+{{% callout note %}}
 Souvent mésestimées, les parties 1 (CAO) et 2 (Maillage) peuvent parfois prendre jusqu'à **70% du temps total de la procédure !** Construire un maillage correct et pertinent pour l'analyse demande un important temps de travail *humain*.
-{{% /alert %}}
+{{% /callout %}}

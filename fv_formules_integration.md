@@ -154,7 +154,7 @@ $$
 $$
 
 
-{{% alert exercise %}}
+{{% callout exercise %}}
 À l'aide de la formule de Green, montrez les formules suivantes (vous pouvez développer les expressions...) :
 
 
@@ -174,7 +174,7 @@ $$
 \int\_{\partial\Omega}(\boldsymbol{\phi}\times\nn)\cdot \boldsymbol{\psi} \;\diff s
 $$
 
-{{% /alert %}}
+{{% /callout %}}
 
 <!-- 
 \begin{correction}

@@ -32,11 +32,11 @@ edit_page = {repo_url = "https://github.com/Bertbk/course_fem", repo_branch = "m
 ## Mécanique
 
 
-{{% alert note %}}
+{{% callout note %}}
 **Computed by NUMEA, Courtesy of Hutchinson-SA**
 
 The poor quality of the video if my fault and only my fault...
-{{% /alert %}}
+{{% /callout %}}
 
 
 - Soufflet

@@ -60,21 +60,21 @@ Les théorèmes, définitions, corollaires, lemmes et démonstrations ressemblen
 
 ### Encards
 
-{{% alert note %}}
+{{% callout note %}}
 Parfois, vous rencontrerez des remarques indiquées comme ceci...
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert tips %}}
+{{% callout tips %}}
 ... Ou bien des astuces ...
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 ... voire même des avertissements...
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert exercise %}}
+{{% callout exercise %}}
 ... et enfin, parfois, des exercices.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Remarques importantes
 

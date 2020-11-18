@@ -75,9 +75,9 @@ $\newcommand{\mphiK}[2]{\mphi{#2}^{#1}}$
 Le maillage du domaine est une étape que nous ne détaillerons pas. Sachons cependant que cette étape est à la fois compliquée, du point de vue mathématique et algorithmique, et très coûteuse, du point de vue temps CPU, surtout en 3D ! Pour des géométries complexes, le temps de création du maillage peut dépasser celui de la résolution du système linéaire. Nous utiliserons le logiciel libre [GMSH](https://GMSH.info) et un [tutoriel]({{< ref "tutorial/gmsh">}}) pour dessiner puis mailler des domaines.
 
 
-{{% alert note %}}
+{{% callout note %}}
 Nous nous restreignons ici au cas d'éléments triangulaires à 3 sommets. Cependant, tout est adaptable (et à adapter !) en fonction de la géométrie de l'élément : segment, triangle (à plus que 3 points), quadrangle, prisme, ... Mais aussi en fonction de l'ordre de l'élément.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Triangles
 

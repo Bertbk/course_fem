@@ -153,13 +153,13 @@ $$
 $$
 {{< /thm/proof >}} 
 
-{{% alert note %}}
+{{% callout note %}}
 Quelques remarques :
 
 - La matrice $\hme{A}$ *discrétise* l'opérateur $a(\cdot,\cdot)$ au sens où elle est de taille finie.
 - La **coercivité** d'une forme $a(\cdot,\cdot)$ est, en quelque sorte, l'équivalent de la **définie positivité** de sa matrice. La coercivité s'applique au domaine "continu" (les *fonctions* ou *opérateurs*) tandis que la définie positivité est un terme appliqué au domaine "algébrique" (les *matrices* (infinies ou non)).  
 - L'hypothèse de Lax-Milgram sur la **coercivité** de $a(\cdot,\cdot)$ est une **hypothèse forte** puisque la matrice $\hme{A}$ discrétisant $a(\cdot,\cdot)$ doit être **définie positive** !
-{{% /alert %}}
+{{% /callout %}}
 
 ## Erreur commise
 
@@ -182,9 +182,9 @@ $$
 {{< /thm/proof >}}
 
 
-{{% alert note%}}
+{{% callout note%}}
 Si $a(\cdot,\cdot)$ est symmétrique, le lemme précédent implique que l'erreur est orthogonale à $\Vh$ par rapport au produit scalaire $a(\cdot,\cdot)$.
-{{% /alert %}}
+{{% /callout %}}
 
 Nous pouvons maintenant montrer que l'erreur d'approximation $\uh$ de $u$ est uniformément bornée par la distance entre $u$ et l'espace $\Vh$. Ce résultat est connu comme étant [**le Lemme de Céa**](https://fr.wikipedia.org/wiki/Lemme_de_C%C3%A9a), démontré par [Jean Céa](https://fr.wikipedia.org/wiki/Jean_C%C3%A9a) durant [sa thèse](http://archive.numdam.org/article/AIF_1964__14_2_345_0.pdf/), en 1964.
 {{< thm/thm lemma "de Céa" >}}
@@ -218,9 +218,9 @@ $$
 $$
 {{< /thm/proof >}}
 
-{{% alert note %}}
+{{% callout note %}}
 Le point important du Lemme de Céa est de remplacer le problème d'estimation de l'erreur par un problème d'approximation. En effet, il nous suffit de montrer que la solution est "bien approchée" par les fonctions de $\Vh$ pour savoir que l'erreur ne sera *qu'une constante fois plus grande* que cette erreur d'approximation. 
-{{% /alert %}}
+{{% /callout %}}
 
 {{< thm/thm lemma >}} 
 Soit $\hme{\Pi} : V \to \Vh$ un **opérateur d'interpolation** tel que 

@@ -71,9 +71,9 @@ $$
 $$
 {{< /thm/thm >}}
 
-{{% alert note%}}
+{{% callout note%}}
 Ce théorème montre que la forme $\ell$ peut être **représentée** par un vecteur $w$ qui est unique. Autrement dit, peu importe $v$, la quantité $\ell(v)$ peut se calculer par la seule connaissance du vecteur $w$ et d'un "simple" produit scalaire.
-{{% /alert %}}
+{{% /callout %}}
 
 
 ## Théorème de Lax-Milgram
@@ -170,9 +170,9 @@ Ceci prouve que $u$ dépend continûment du membre de droite $f$ (qui dépend de
 {{< /thm/proof >}}
 
 
-{{% alert note %}}
+{{% callout note %}}
 À quoi sert ce théorème ? Sous réserve de 4 hypothèses, nous aurons la garantie que la formulation faible obtenue précédemment admet une solution (ce qui est bien) et que cette solution est unique (encore mieux !). Il est donc d'une importance capitale.
-{{% /alert %}}
+{{% /callout %}}
 
 ## Application au problème modèle
 
@@ -251,13 +251,13 @@ Nous sommes tentés de crier victoire et d'appliquer le Théorème de Lax-Milgra
 
 Sauf que, contrairement à ce jeune homme, nous évitons un joli fail car $\Cscr^1(\overline{\Omega})$ **n'est pas un espace de Hilbert pour la norme $\normH{\cdot}$** car l'espace n'est pas complet (voir exercice) ! 
 
-{{% alert note %}}
+{{% callout note %}}
 Nous pourrions trouver une norme pour lequel $\Cscr^1(\overline{\Omega})$ devient complet, toutefois le problème vient en réalité de la régularité demandée à la solution $u$. 
-{{% /alert %}}
+{{% /callout %}}
 
 L'idée ici est d'autoriser à la solution $u$ à être *un peu moins régulière* pour ainsi appartenir à un espace de Hilbert. L'espace idéal serait le "plus petit" espace de Hilbert possible $V$ qui contienne malgré tout $\Cscr^1(\overline{\Omega})$. Cet espace existe et s'appelle espace de Sobolev $H^1(\Omega)$.
 
-{{% alert exercise %}}
+{{% callout exercise %}}
 Montrez que $\Cscr^1([-1,1])$ munit du produit scalaire $(\cdot, \cdot)\_{H^1(]-1,1[)}$ n'est pas complet. Pour cela, nous vous suggérons d'étudier la suite de fonctions $(u\_n)\_n$ définies sur $[-1,1]$ par
 $$
 \forall x \in [-1,1],\quad u\_n(x) = 
@@ -267,4 +267,4 @@ $$
 x -1 & \text{ si } \frac{1}{n} \leq x < 1,
 \end{cases}
 $$
-{{% /alert %}}
+{{% /callout %}}

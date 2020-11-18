@@ -192,23 +192,23 @@ For p = 1:N_triangles
 EndFor
 ```
 
-{{% alert note %}}
+{{% callout note %}}
 Pour utiliser une telle méthode, nous avons besoin de :
 
 1. La connectivité des éléments et en particulier, pour un triangle donné, connaître ses 3 sommets
 2. La fonction que nous avons appelée $\loctoglob$
 
 Ce sont précisément les données que nous fournissent le fichier de maillage (quel hasard) !
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert note%}}
+{{% callout note%}}
 En réalité, les boucles sur les sommets locaux, c'est-à-dire les boucles sur $i$ et $j$, ne varient pas de 1 à 3, mais de 1 au nombre de sommets $N^p\_s$ de l'élément. En effet, un élément peut être par exemple un segment, avec uniquement 2 sommets ou un tétraèdres, avec 4 sommets.
-{{% /alert%}}
+{{% /callout%}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 Cet algorithme est pour l'instant encore inutilisable :
   
 - Les quantités $\aK{p}(\mphi{J}, \mphi{I})$ et $\ell(\mphi{I})$ doivent être déterminées.
 - L'écriture de l'algorithme suppose que la matrice est dense, au sens où elle possède une valeur pour chaque indice $(I,J)$. Nous devons donc adapter cette écriture pour le cas d'une matrice creuse (diminution du coût mémoire).
 - Il manque toujours et bien entendu les (éventuelles) conditions de Dirichlet.
-{{% /alert %}}
+{{% /callout %}}
