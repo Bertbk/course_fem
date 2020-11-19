@@ -148,8 +148,8 @@ Partons maintenant de \eqref{eq:FVpbmodel} et utilisons la formule de Green "à 
 $$
   \begin{array}{r r c l}
 &\dsp  \int\_{\Omega} \nabla u\cdot \conj{\nabla v} \;\diff x +\int\_{\Omega}  u \conj{v} \;\diff x \dsp -\int\_{\Omega} f\conj{v}\;\diff x &=& 0 \\\\\\
-\implies& \dsp \int\_{\Omega} \left(\nabla u\cdot \conj{\nabla v} + \Delta u\cdot\conj{v}\right)\;\diff x
-+ \int\_{\Omega} (-\Delta u +  u - f)\conj{v}\;\diff x &=& 0\\\\\\
+\implies& \dsp \int\_{\Omega} \left(\nabla u\cdot \conj{\nabla v} + \Delta u\cdot\conj{v}\right)\;\diff x+
+ \int\_{\Omega} (-\Delta u +  u - f)\conj{v}\;\diff x &=& 0\\\\\\
  \implies &
 \dsp \int\_{\partial\Omega}(\dn u) \conj{v} \;\diff s + \int\_{\Omega} (-\Delta u + u - f)\conj{v}\;\diff x &=& 0
 \end{array}
@@ -167,7 +167,7 @@ Il nous reste à montrer que $u$ vérifie la condition au bord $\dn u = 0$ sur $
 $$
 \forall v \in \Cscr^1, \dsp \int\_{\partial\Omega}(\dn u) \conj{v} \;\diff s=0.
 $$
-Comme $u\in\Cscr^2(\overline{Omega})$, on a $\dn u\in\Cscr^1(\partial\Omega)$. Il existe donc $v\in\Cscr^1(\overline{Omega})$ telle que $v|\_{\partial\Omega} = \dn u$. En l'injectant dans l'équation ci-dessus, on obtient :
+Comme $u\in\Cscr^2(\overline{\Omega})$, on a $\dn u\in\Cscr^1(\partial\Omega)$. Il existe donc $v\in\Cscr^1(\overline{\Omega})$ telle que $v|\_{\partial\Omega} = \dn u$. En l'injectant dans l'équation ci-dessus, on obtient :
 $$
 \dsp \int\_{\partial\Omega} |\dn u|^2 \;\diff s=0.
 $$
