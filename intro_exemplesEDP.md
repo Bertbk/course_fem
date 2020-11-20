@@ -41,13 +41,13 @@ $\newcommand{\Omegamur}{\Omega\_{\text{mur}}}$
 
 Prenons un domaine borné et connexe $\Omega$, par exemple le carré unité, qui représente un studio. En supposant le milieu homogène, la température $T$ au sein du studio vérifie *l'équation de Laplace*:
 $$
-- \Delta T = 0, \qquad \text{ dans }\Omega,
+(- \Delta T) = 0, \qquad \text{ dans }\Omega,
 $$
 où l'opérateur $\Delta := \sum\_{i=1}^d\frac{\partial^2}{\partial x\_i^2}$ est le *Laplacien* ou *Opérateur de Laplace*.
 
 Supposons maintenant que le studio comporte une source de chaleur, par exemple un radiateur. Nous le modélisons par une fonction $q$, continue, valant $0$ partout sauf sur un petit domaine $\Omega_R$. En notant la conductivité $K$(=constante) du milieu alors $T$ vérifie *l'équation de Poisson*:
 $$
-- \Delta T = \frac{q}{K}, \qquad \text{ dans }\Omega.
+(- \Delta T) = \frac{q}{K}, \qquad \text{ dans }\Omega.
 $$
 
 Ce problème reste pour l'instant incomplet car il manque des conditions. Contrairement aux problèmes de Cauchy, il n'y a pas de condition initiale, car le régime est stationnaire, mais nous avons besoin de conditions sur le bord $\partial\Omega$ du domaine $\Omega$. Nous parlons alors de *conditions aux limites* et par suite de *problème aux limites*. 
