@@ -107,8 +107,8 @@ $$
 avec
 $$
 \begin{array}{r c l}
-  \dsp a(u,v)  &= & \dsp \int\_{\Omega}\nabla u(x)\cdot\overline{\nabla v(x)}\diff x
-  + \int\_{\Omega}u(x)\conj{v(x)}\diff x \\\\\\
+  \dsp a(u,v)  &= & \dsp \int\_{\Omega}\nabla u(x)\cdot\overline{\nabla v(x)}\diff x +
+   \int\_{\Omega}u(x)\conj{v(x)}\diff x \\\\\\
   \dsp \ell(v) &=&\dsp \int\_{\Omega}f(x)\conj{v(x)}\diff x.
 \end{array}
 $$
